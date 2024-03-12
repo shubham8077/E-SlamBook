@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="tailwind.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="_favicon_/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="_favicon_/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="_favicon_/favicon-16x16.png">
+    <link rel="manifest" href="_favicon_/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            background: url('img/sb_bg.jpg');
+        }
+
+        .heading {
+            animation: jump 1s linear infinite;
+        }
+
+        @keyframes jump {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-500 to-orange-400"
+    style="background: url('img/sb_bg.jpg');background-size:cover;">
+    <div class="flex flex-col justify-center items-center h-screen">
+        <p class="heading text-white text-8xl font-bold text-center m-2">E-Slambook</p>
+        <a href="signup.php">
+            <button
+                class="rounded-lg bg-cyan-400 text-center font-bold border-2 border-black  hover:bg-cyan-500 text-black p-1 m-2 sm:m-4 text-xl w-11/12">
+                Let's get started
+            </button>
+        </a>
+    </div>
+</body>
+
+</html>

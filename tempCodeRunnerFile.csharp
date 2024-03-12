@@ -1,0 +1,26 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        string dayName=“Saturday”;
+        switch (dayName)
+        {
+            case Tuesday:
+                Console.WriteLine(“Java Practical”);
+                break;
+            case Wednesday:
+                Console.WriteLine(“Linux Practical”);
+                break;
+            case Thursday:
+                Console.WriteLine(“Python Practical”);
+                break;
+            case Saturday:
+                Console.WriteLine(“C# Practical”);
+                break;
+	  default:
+                Console.WriteLine(“No Practical”);
+                break;
+        }
+    }
+}
