@@ -58,6 +58,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Tailwind CSS: A utility-first CSS framework for rapid UI development.
 - PHP: A popular general-purpose scripting language.
 - JavaScript: A programming language used to make web pages interactive.
-- OpenAI: For providing the language model used to generate this README.
+- TCPDF (For PDF download function)
+
+Two folders, 'profile_uploads' and 'uploads', are required for user uploads.
 
 Thank you for using E-Slambook! Enjoy reminiscing and connecting with your friends. If you have any questions or need assistance, feel free to reach out. Happy slamming! 🎉
